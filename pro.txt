@@ -1,0 +1,1 @@
+PROCEDURE `log`(IN `name1` VARCHAR(30), IN `email1` VARCHAR(30), IN `pid1` INT) NOT DETERMINISTIC CONTAINS SQL SQL SECURITY DEFINER insert into logtable( name,email,pid) VALUES (name1,email1,pid1)
